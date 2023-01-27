@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+.alert-text{
+ color: red;
+}
+
+#title{
+color: aquamarine;
+}
+
+.read, .unread{
+    color: white;
+    background-color: black;
+}
