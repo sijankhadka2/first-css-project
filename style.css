@@ -27,3 +27,17 @@ color: aquamarine;
 .anchestor .contents{
     color: blue;
 }
+
+.ram{
+  color: azure;
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+img{
+  height: auto;
+  width: 800px;
+}
