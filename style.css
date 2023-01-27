@@ -15,3 +15,15 @@ color: aquamarine;
     color: white;
     background-color: black;
 }
+
+.subsection.header {
+    color: red;
+  }
+  
+  .subsection#preview {
+    color: blue;
+  }
+
+.anchestor .contents{
+    color: blue;
+}
