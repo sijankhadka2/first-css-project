@@ -12,8 +12,9 @@ color: aquamarine;
 }
 
 .read, .unread{
-    color: white;
+    color: blue;
     background-color: black;
+    
 }
 
 .subsection.header {
