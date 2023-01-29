@@ -1,78 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.alert-text{
- color: red;
-}
-
-#title{
-color: aquamarine;
-}
-
-.read, .unread{
-    color: blue;
-    background-color: black;
-    
-}
-
-.subsection.header {
-    color: red;
-  }
-  
-  .subsection#preview {
-    color: blue;
-  }
-
-.anchestor .contents{
-    color: blue;
-}
-
-.ram{
-  color: azure;
-  background-color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 50px;
-  font-weight: 900;
+header {
+  background-color: #4CAF50;
+  color: white;
   text-align: center;
+  padding: 1em;
 }
 
-img{
-  height: auto;
-  width: 800px;
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
-.practice{
-width: 500px;
-margin: auto;
+header nav ul li {
+  display: inline-block;
 }
 
-p{
-background: rgba(255, 84, 104, 0.3);
-border: 2px solid rgb(255, 84, 104);
-padding: 10px;
-margin: 10px;
+header nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-span{
-  background: white;
-  border: 1px solid black;
+main {
+  padding: 1em;
 }
 
-.flex-container{
-display: flex;
-}
-
-/*this selector selects all divs inside
-of flex-container*/
-.flex-container div{
-background: peachpuff;
-border: 4px solid brown;
-height: 100px;
-flex: 1 5 0%;
-}
-
-.flex-container .two{
-  flex:2 1 0%;
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
